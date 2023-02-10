@@ -1,13 +1,27 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Tech News
+O projeto que tem como principal objetivo fazer consultas em notícias sobre tecnologia.
+As notícias podem ser obtidas através da raspagem do blog da Trybe.
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Projeto feito enquanto estudante da Trybe.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+### Habilidades trabalhadas:
+* Utilizar o terminal interativo do Python
+* Aplicar técnicas de raspagem de dados
+* Extrair dados de conteúdo HTML
+* Armazenar os dados obtidos em um banco de dados
+
+### Os arquivos alterados por mim foram:
+* tech_news/analyzer/ratings.py
+* tech_news/analyzer/search_engine.py
+* tech_news/menu.py
+* tech_news/scraper.py
+
+### Para executar o projeto:
+* Criar o ambiente virtual: `python3 -m venv .venv`
+* Ativar o ambiente virtual: `source .venv/bin/activate`
+* Instalar as dependências no ambiente virtual: `python3 -m pip install -r dev-requirements.txt`
+* Caso queira desativar o ambiente virtual: `deactivate`
+* Para rodar o MongoDB via Docker: `docker-compose up -d mongodb`
+
+# README EM CONSTRUÇÃO
+
