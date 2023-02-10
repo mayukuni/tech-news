@@ -1,6 +1,6 @@
 # Tech News
 O projeto que tem como principal objetivo fazer consultas em notícias sobre tecnologia.
-As notícias podem ser obtidas através da raspagem do blog da Trybe.
+As notícias podem ser obtidas através da raspagem do blog da Trybe: https://blog.betrybe.com.
 
 Projeto feito enquanto estudante da Trybe.
 
@@ -23,5 +23,7 @@ Projeto feito enquanto estudante da Trybe.
 * Caso queira desativar o ambiente virtual: `deactivate`
 * Para rodar o MongoDB via Docker: `docker-compose up -d mongodb`
 
-# README EM CONSTRUÇÃO
+### Para executar a função fetch: 
+* Dentro do terminal Python, execute a função `python3 -i tech_news/scraper.py`
+* Invoque as funções utilizando diferentes parâmetros: `html = fetch("url_da_noticia")` e depois `scrape_news(html)`
 
