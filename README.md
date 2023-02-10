@@ -17,6 +17,8 @@ Projeto feito enquanto estudante da Trybe.
 * tech_news/scraper.py
 
 ### Para executar o projeto:
+* Clone o repositório: `git@github.com:mayukuni/tech-news.git`
+* Entre na pasta do repositório: `cd tech-news`
 * Criar o ambiente virtual: `python3 -m venv .venv`
 * Ativar o ambiente virtual: `source .venv/bin/activate`
 * Instalar as dependências no ambiente virtual: `python3 -m pip install -r dev-requirements.txt`
